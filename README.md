@@ -14,3 +14,11 @@ Extracts only the measurements on the mean and standard deviation for each measu
 Uses descriptive activity names to name the activities in the data set
 Appropriately labels the data set with descriptive variable names.
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+
+## Description of runAnalysis.R code
+
+First, any required libraries are loaded into R and the working directory is set. Next, the required .zip file is downloaded
+and unzipped. Then, the applicable files are read into R. Next, a single data table is created, descriptive column names 
+(variables) are given, and numeric code values for activities are replaced with their corresponding character descriptions. 
+Finally, a tidy data set with the average for each variable for each activity and subject is obtained and written to a .txt file.
